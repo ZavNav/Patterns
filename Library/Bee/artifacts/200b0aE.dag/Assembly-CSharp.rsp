@@ -366,6 +366,13 @@
 "Assets/Scripts/Singleton/LeftCube.cs"
 "Assets/Scripts/Singleton/RightCube.cs"
 "Assets/Scripts/Singleton/ViewController.cs"
+"Assets/Scripts/Strategy/CameraBehaviour.cs"
+"Assets/Scripts/Strategy/Enemy.cs"
+"Assets/Scripts/Strategy/HealthBarOnTop.cs"
+"Assets/Scripts/Strategy/Projectile.cs"
+"Assets/Scripts/Strategy/StrongEnemy.cs"
+"Assets/Scripts/Strategy/ViewController.cs"
+"Assets/Scripts/Strategy/WeakEnemy.cs"
 -langversion:9.0
 
 /deterministic

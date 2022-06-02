@@ -59,6 +59,13 @@
      <Compile Include="Assets/Scripts/Builder/IInterfaceBuilder.cs" />
      <Compile Include="Assets/Scripts/Builder/InterfaceBuilder.cs" />
      <Compile Include="Assets/Scripts/Builder/UIDirector.cs" />
+     <Compile Include="Assets/Scripts/Strategy/Enemy.cs" />
+     <Compile Include="Assets/Scripts/Strategy/WeakEnemy.cs" />
+     <Compile Include="Assets/Scripts/Strategy/StrongEnemy.cs" />
+     <Compile Include="Assets/Scripts/Strategy/CameraBehaviour.cs" />
+     <Compile Include="Assets/Scripts/Strategy/Projectile.cs" />
+     <Compile Include="Assets/Scripts/Strategy/ViewController.cs" />
+     <Compile Include="Assets/Scripts/Strategy/HealthBarOnTop.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
