@@ -41,16 +41,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets/Scripts/AbstractFactory/Archer.cs" />
+     <Compile Include="Assets/Scripts/AbstractFactory/Controller.cs" />
+     <Compile Include="Assets/Scripts/AbstractFactory/Warrior.cs" />
+     <Compile Include="Assets/Scripts/AbstractFactory/Hero.cs" />
      <Compile Include="Assets/Scripts/FactoryMethod/Creature.cs" />
+     <Compile Include="Assets/Scripts/AbstractFactory/Movement.cs" />
+     <Compile Include="Assets/Scripts/AbstractFactory/HeroFactory.cs" />
      <Compile Include="Assets/Scripts/FactoryMethod/CreatureFactory.cs" />
      <Compile Include="Assets/Scripts/FactoryMethod/Controller.cs" />
-     <Compile Include="Assets/Scripts/AbstractFactory/HeroFactory.cs" />
-     <Compile Include="Assets/Scripts/AbstractFactory/Warrior.cs" />
-     <Compile Include="Assets/Scripts/AbstractFactory/Archer.cs" />
      <Compile Include="Assets/Scripts/AbstractFactory/Weapon.cs" />
-     <Compile Include="Assets/Scripts/AbstractFactory/Movement.cs" />
-     <Compile Include="Assets/Scripts/AbstractFactory/Hero.cs" />
-     <Compile Include="Assets/Scripts/AbstractFactory/Controller.cs" />
+     <Compile Include="Assets/Scripts/Singleton/RightCube.cs" />
+     <Compile Include="Assets/Scripts/Singleton/LeftCube.cs" />
+     <Compile Include="Assets/Scripts/Singleton/GameManager.cs" />
+     <Compile Include="Assets/Scripts/Singleton/ViewController.cs" />
+     <Compile Include="Assets/Scripts/Singleton/Cube.cs" />
+     <Compile Include="Assets/Scripts/Builder/IInterfaceBuilder.cs" />
+     <Compile Include="Assets/Scripts/Builder/InterfaceBuilder.cs" />
+     <Compile Include="Assets/Scripts/Builder/UIDirector.cs" />
      <Reference Include="UnityEngine">
      <HintPath>/Applications/Unity/Hub/Editor/2021.3.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>

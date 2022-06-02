@@ -355,9 +355,17 @@
 "Assets/Scripts/AbstractFactory/Movement.cs"
 "Assets/Scripts/AbstractFactory/Warrior.cs"
 "Assets/Scripts/AbstractFactory/Weapon.cs"
+"Assets/Scripts/Builder/IInterfaceBuilder.cs"
+"Assets/Scripts/Builder/InterfaceBuilder.cs"
+"Assets/Scripts/Builder/UIDirector.cs"
 "Assets/Scripts/FactoryMethod/Controller.cs"
 "Assets/Scripts/FactoryMethod/Creature.cs"
 "Assets/Scripts/FactoryMethod/CreatureFactory.cs"
+"Assets/Scripts/Singleton/Cube.cs"
+"Assets/Scripts/Singleton/GameManager.cs"
+"Assets/Scripts/Singleton/LeftCube.cs"
+"Assets/Scripts/Singleton/RightCube.cs"
+"Assets/Scripts/Singleton/ViewController.cs"
 -langversion:9.0
 
 /deterministic
